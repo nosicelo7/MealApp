@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent">
+
+ <!--This insert the background image that shows on the screen of the app-->
+ <ImageView
+      android:id="@+id/imageBackground"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/food" />
+ <!--Unique ID for background image -->
+ <!--Width spans full screen -->
+ <!--Weight spans  full screen -->
+ <!--Scales image to fill, cropping as necessary-->
+
+ <!--Content Container: All interactions are held in LinearLayout-->
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:gravity="center"
+     android:padding="20dp"
+     android:background="#80000000">
+ <!--Container width covers full screen-->
+ <!--Container height covers full scree-->
+ <!--Arrange elements vertically-->
+ <!--Center the elements horizontally and vertically-->
+ <!--There is padding around the container-->
+ <!--Semi-transparent overlay for clear readability-->
+
+  <!--This text tells you what to enter in the editText-->
+  <TextView
+      android:id="@+id/txtAppTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:paddingBottom="16dp"
+      android:text="Meal App"
+      android:textColor="#FFDC5F"
+      android:textSize="26sp"
+      android:textStyle="bold" />
+  <!--Unique ID for title-->
+  <!--Width adjusted to text length-->
+  <!--Height fixed to text content-->
+  <!--Display text-->
+  <!--size of text-->
+  <!--Bold text style-->
+  <!--White text color-->
+  <!--Text is horizontally displayed in gravity-->
+  <!--Padding adds extra space below the title-->
+
+  <!--This text tells you what to enter in the editText-->
+  <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Enter the time of the day:"
+     android:textColor="#ffff"
+      android:textStyle="bold"
+     android:textSize="18sp" />
+  <!--Width adjusted to text length-->
+  <!--Height fixed to text content-->
+  <!--Display text-->
+  <!--size of text-->
+  <!--Bold text style-->
+  <!--White text color-->
+  <!--Text is horizontally displayed in gravity-->
+  <!--Padding adds extra space below the title-->
+
+
+
+ <!--Input Field: EditText for each meal time-->
+ <EditText
+     android:id="@+id/mealTime"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="Morning, Afternoon, Dinner"
+     android:padding="12dp"
+     android:textColor="#000000"
+     android:textColorHint="#CCCCCC"
+     android:background="@android:drawable/edit_text"
+     android:elevation="4dp"
+     android:layout_marginTop="8dp" />
+ <!--Unique ID linked to mealtime input-->
+ <!--Container spans fll width-->
+ <!--Adjusted height according to content-->
+ <!--Hint text when empty-->
+ <!--Internal Padding-->
+ <!--Text Color set to black-->
+ <!--Hint text color set to light gray-->
+ <!--Android edit text background default-->
+ <!--Shadow used for more depth-->
+ <!--Space for top margin-->
+
+ <!--This text will display when user clicks on the following button-->
+ <TextView
+       android:id="@+id/resultText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Meal of the day"
+       android:textSize="18sp"
+       android:textColor="#ffff"
+       android:gravity="center"
+       android:layout_marginTop="12dp"
+       android:textStyle="bold"/>
+ <!--Width adjusted to text length-->
+ <!--Height fixed to text content-->
+ <!--Display text-->
+ <!--Size of text-->
+ <!--Bold text style-->
+ <!--White text color-->
+ <!--Text is horizontally displayed in gravity-->
+ <!--Padding adds extra space below the title-->
+
+
+  <!--Click on Button for each meal-->
+ <Button
+     android:id="@+id/suggestMealButton"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Display Meal Suggestion"
+     android:textSize="16sp"
+     android:backgroundTint="#FD7979"
+     android:textColor="#000000"
+     android:layout_marginTop="12dp"
+     android:elevation="4dp" />
+ <!--Unique ID for different meals-->
+ <!--Button text-->
+ <!--Text size-->
+ <!--Pink tint color-->
+ <!--Black text color-->
+ <!--Top margin for extra space-->
+ <!--Shadow for depth-->
+
+<!--The reset button, this button will reset what is typed out in the editText-->
+ <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textSize="16sp"
+        android:backgroundTint="#FFCC8F"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:elevation="4dp" />
+  <!--Unique ID to Reset-->
+  <!--Button text-->
+  <!--Text size-->
+  <!--Light Pink tint color-->
+  <!--Black text color-->
+  <!--Top margin for extra space-->
+  <!--Shadow for depth-->
+
+ </LinearLayout>
+</RelativeLayout>
+
+
