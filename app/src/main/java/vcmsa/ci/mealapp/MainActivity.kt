@@ -1,7 +1,9 @@
-// Title: Meal App
-// Date: 27 March 2025
+// Background Image reference
+// Title: Brown Food Ilsutration Kawaii Phone Wallpaper
+// Author: Canva
+// Date: 28 March 2025
 // Version: 1.0
-// Available:
+// Available: https://www.canva.com/design/DAGjaALfbj4/x1fdH6uwnJD8dSKWYR8FRw/edit?ui=eyJBIjp7fX0
 
 package vcmsa.ci.mealapp
 
@@ -87,7 +89,11 @@ class MainActivity : AppCompatActivity() {
         // Version: 1.0
         // Available: https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.js/reset.html
 
-
+        //Title: Background image
+        // Author: Canva
+        // Date: 28 March 2025
+        // Version: 1.0
+        // Available:https://www.canva.com/design/DAGjaALfbj4/x1fdH6uwnJD8dSKWYR8FRw/edit?utm_content=DAGjaALfbj4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 
         }
